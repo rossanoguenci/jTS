@@ -62,38 +62,8 @@ $window.updateResult = function () {
     $('#jTestSize #docHeight result').text(docHeight);
 };
 
-/*DEPENDS*/
-let depends = [
-    'jquery-ui/jquery-ui.min.js',
-    'jquery.ui.touch-punch.min.js',
-    'js.cookie.js'
-];
 
-
-
-$.getMultiScripts = function (arr, path) {
-    var _arr = $.map(arr, function (scr) {
-        console.log(path);
-        return $.getScript((path || "") + scr);
-    });
-
-    _arr.push($.Deferred(function (deferred) {
-        $(deferred.resolve);
-    }));
-
-    return $.when.apply($, _arr);
-};
-
-
-$.getMultiScripts(depends, 'jTS/').done(function() {
-
-    $(function (){
-        jTS();
-    });
-
-});
-
-function jTS() {
+$(function ($) {
     $('body').prepend('<div id="jTestSize"> <content id="viewport"> <contentName>Viewport <span></span></contentName> <div id="vpoWidth" class="contentResult">Width: <result></result> px</div> <div id="vpoHeight" class="contentResult">Height: <result></result> px</div> </content> <content id="document"> <contentName>Document</contentName> <div id="docWidth" class="contentResult">Width: <result></result> px</div> <div id="docHeight" class="contentResult">Height: <result></result> px</div> </content> <content id="device"> <contentName>Device</contentName> <div id="devWidth" class="contentResult">Width: <result></result> px</div> <div id="devHeight" class="contentResult">Height: <result></result> px</div> <div id="devRatio" class="contentResult">Ratio: <result></result></div> </content> </div>');
     $('#jTestSize').css({
         "min-height": "auto",
@@ -172,4 +142,4 @@ function jTS() {
     }
 
     $window.updateResult();
-}
+});
