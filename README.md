@@ -1,7 +1,7 @@
 # jTS
 (under construction)
 
-Put this in <head> and enjoy:
+Put this in \<head> and enjoy:
   
   <!--jTS-->
     <script src="jTS/jquery.min.js"></script>
