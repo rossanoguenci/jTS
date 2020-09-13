@@ -1,9 +1,15 @@
 # jTS
-jTestSize is a widget to take under control the sizes of your HTML page you are developing:
 
-*Viewport
-*Document
-*Device
+jTestSize is a jQuery widget to take under control the sizes of your HTML page you are developing:
+
+* Viewport
+* Document
+* Device
+
+
+## Dependencies
+
+This widget has been developed and tested for jQuery 3, it's included in the ZIP file.
 
 
 ## Installation
