@@ -16,7 +16,7 @@ This widget has been developed and tested for jQuery 3, it's included in the ZIP
 
 Unpack the ZIP file in your root folder (\*) and put this in \<head> and enjoy:
 
-```
+```html
  <!--jTS-->
     <script src="jTS/jquery.min.js"></script>
     <script src="jTS/jquery-ui/jquery-ui.min.js"></script>
