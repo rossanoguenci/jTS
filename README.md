@@ -1,4 +1,4 @@
-# jTS
+# jTS - jTestSize - jQuery Widget
 
 jTestSize is a jQuery widget to take under control the sizes of your HTML page you are developing:
 
@@ -33,6 +33,8 @@ Unpack the ZIP file in your root folder (\*) and put this in \<head> and enjoy:
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
+
+[![paypal.me/rossanoguenciuk](https://ionicabizau.github.io/badges/paypal.svg)](https://www.paypal.me/rossanoguenciuk) - If you find this project useful, please offer me a coffee, I love it ☕️ 
 
 ## License
 ![MIT](https://img.shields.io/github/license/rossanoguenci/jTS?style=for-the-badge)
