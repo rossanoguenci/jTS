@@ -6,6 +6,9 @@ jTestSize is a jQuery widget to take under control the sizes of your HTML page y
 * Document
 * Device
 
+## Preview
+
+Try it by yourself to my portfolio -> https://rossanoguenci.com/portfolio/20190701_jts/
 
 ## Dependencies
 
